@@ -9,16 +9,16 @@ include('includes/arrays.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo TITLE; ?></title>
 
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/globalstyle.css">
 </head>
 
 <body id="final-example">
     <div class="wrapper">
         <div id="banner">
-            <a href="/" title="Return to Home">
-                <img src="assets/img/banner.png" [alt]="$companyName"></a>
+            <a href="#" title="Return to Home">
+                <img src="img/banner.png" [alt]="$companyName"></a>
         </div>
 
         <div id="nav">
@@ -26,7 +26,3 @@ include('includes/arrays.php');
         </div>
 
         <div class="content">
-        </div>
-</body>
-
-</html>

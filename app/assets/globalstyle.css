@@ -6,7 +6,8 @@
 }
 
 body {
-	background: #f5f4f1 url('assets/img/bg.jpg');
+	background: #f5f4f1;
+	background-image: url("./img/bg.jpg") !important;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;
@@ -15,7 +16,12 @@ body {
 	text-rendering: optimizelegibility;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 30px 0;
 	font-weight: 200;
 	color: #8ca757;
@@ -38,7 +44,9 @@ h3 + p {
 	margin-top: -20px;
 }
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
 	font-size: 30px;
 }
 
@@ -46,7 +54,8 @@ h4.error {
 	color: #faa722;
 }
 
-h5,h6 {
+h5,
+h6 {
 	font-size: 20px;
 }
 
@@ -54,7 +63,8 @@ p {
 	margin: 0 0 20px;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
 	color: #8ca757;
 }
 
@@ -62,11 +72,13 @@ a:hover {
 	color: #7a9347;
 }
 
-ul, ol {
+ul,
+ol {
 	margin: 0 0 10px 18px;
 }
 
-ul li, ol li {
+ul li,
+ol li {
 	margin: 0 0 15px;
 }
 
@@ -74,7 +86,7 @@ hr {
 	border: none;
 	height: 18px;
 	width: 114px;
-	background: url('/assets/img/hr.png') center center no-repeat;
+	background: url("./img/hr.png") center center no-repeat;
 	margin: 20px auto;
 }
 
@@ -119,7 +131,8 @@ sup {
 	text-align: center;
 }
 
-.wrapper:before, .wrapper:after {
+.wrapper:before,
+.wrapper:after {
 	content: "";
 	position: absolute;
 	top: 5px;
@@ -191,7 +204,8 @@ input {
 	text-rendering: optimizelegibility;
 }
 
-a.button, input.button {
+a.button,
+input.button {
 	display: inline-block;
 	background: #ccc;
 	outline: solid 2px #ccc;
@@ -206,7 +220,8 @@ a.button, input.button {
 	cursor: pointer;
 }
 
-.button:hover, input.button:hover {
+.button:hover,
+input.button:hover {
 	background: #bbb;
 	outline-color: #bbb;
 }
@@ -222,13 +237,15 @@ a.button, input.button {
 	outline-color: #494331;
 }
 
-.button.next, input.button.next {
+.button.next,
+input.button.next {
 	background: #8ca757;
 	outline: solid 2px #8ca757;
 	float: right;
 }
 
-.button.next:hover, input.button.next:hover {
+.button.next:hover,
+input.button.next:hover {
 	background: #7c9745;
 }
 
@@ -244,12 +261,12 @@ input.button.next {
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
 /**
@@ -257,10 +274,11 @@ input.button.next {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .cf {
-    *zoom: 1;
+	*zoom: 1;
 }
 
-.copyright-info h4, .copyright-info h5 {
+.copyright-info h4,
+.copyright-info h5 {
 	margin: 0;
 	line-height: 18px;
 	font-size: 14px;

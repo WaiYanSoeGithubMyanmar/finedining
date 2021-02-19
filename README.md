@@ -1,3 +1,3 @@
 # finedining
 
-Own Dynamic Website by Learning PHP Through Real-World Application & Examples
+Own Dynamic Website by Learning PHP
